@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		00EB55C32375D0AA006ACB41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EB55C22375D0AA006ACB41 /* AppDelegate.swift */; };
 		00EB55C52375D0AA006ACB41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EB55C42375D0AA006ACB41 /* SceneDelegate.swift */; };
-		00EB55C72375D0AA006ACB41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EB55C62375D0AA006ACB41 /* ContentView.swift */; };
+		00EB55C72375D0AA006ACB41 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EB55C62375D0AA006ACB41 /* WelcomeView.swift */; };
 		00EB55C92375D0AB006ACB41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00EB55C82375D0AB006ACB41 /* Assets.xcassets */; };
 		00EB55CC2375D0AB006ACB41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00EB55CB2375D0AB006ACB41 /* Preview Assets.xcassets */; };
 		00EB55CF2375D0AB006ACB41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00EB55CD2375D0AB006ACB41 /* LaunchScreen.storyboard */; };
+		00EB55D72375D24C006ACB41 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EB55D62375D24C006ACB41 /* BackgroundImageView.swift */; };
+		00EB55D92375D6CC006ACB41 /* MenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EB55D82375D6CC006ACB41 /* MenuButtonView.swift */; };
+		00EB55DB2375D924006ACB41 /* WelcomeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EB55DA2375D924006ACB41 /* WelcomeTextView.swift */; };
+		00EB55DD2375DA06006ACB41 /* SignInOrCreateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EB55DC2375DA06006ACB41 /* SignInOrCreateButtonView.swift */; };
+		00EB55DF2375DFB6006ACB41 /* WelcomeBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EB55DE2375DFB6006ACB41 /* WelcomeBottomView.swift */; };
+		00EB55E12375E157006ACB41 /* WelcomeBottomButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EB55E02375E157006ACB41 /* WelcomeBottomButtonsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		00EB55BF2375D0AA006ACB41 /* Shake Shack Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shake Shack Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00EB55C22375D0AA006ACB41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00EB55C42375D0AA006ACB41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		00EB55C62375D0AA006ACB41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		00EB55C62375D0AA006ACB41 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		00EB55C82375D0AB006ACB41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00EB55CB2375D0AB006ACB41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		00EB55CE2375D0AB006ACB41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00EB55D02375D0AB006ACB41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00EB55D62375D24C006ACB41 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		00EB55D82375D6CC006ACB41 /* MenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonView.swift; sourceTree = "<group>"; };
+		00EB55DA2375D924006ACB41 /* WelcomeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeTextView.swift; sourceTree = "<group>"; };
+		00EB55DC2375DA06006ACB41 /* SignInOrCreateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInOrCreateButtonView.swift; sourceTree = "<group>"; };
+		00EB55DE2375DFB6006ACB41 /* WelcomeBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBottomView.swift; sourceTree = "<group>"; };
+		00EB55E02375E157006ACB41 /* WelcomeBottomButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBottomButtonsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +70,13 @@
 			children = (
 				00EB55C22375D0AA006ACB41 /* AppDelegate.swift */,
 				00EB55C42375D0AA006ACB41 /* SceneDelegate.swift */,
-				00EB55C62375D0AA006ACB41 /* ContentView.swift */,
+				00EB55C62375D0AA006ACB41 /* WelcomeView.swift */,
+				00EB55D62375D24C006ACB41 /* BackgroundImageView.swift */,
+				00EB55D82375D6CC006ACB41 /* MenuButtonView.swift */,
+				00EB55DA2375D924006ACB41 /* WelcomeTextView.swift */,
+				00EB55DC2375DA06006ACB41 /* SignInOrCreateButtonView.swift */,
+				00EB55DE2375DFB6006ACB41 /* WelcomeBottomView.swift */,
+				00EB55E02375E157006ACB41 /* WelcomeBottomButtonsView.swift */,
 				00EB55C82375D0AB006ACB41 /* Assets.xcassets */,
 				00EB55CD2375D0AB006ACB41 /* LaunchScreen.storyboard */,
 				00EB55D02375D0AB006ACB41 /* Info.plist */,
@@ -148,7 +166,13 @@
 			files = (
 				00EB55C32375D0AA006ACB41 /* AppDelegate.swift in Sources */,
 				00EB55C52375D0AA006ACB41 /* SceneDelegate.swift in Sources */,
-				00EB55C72375D0AA006ACB41 /* ContentView.swift in Sources */,
+				00EB55DB2375D924006ACB41 /* WelcomeTextView.swift in Sources */,
+				00EB55DD2375DA06006ACB41 /* SignInOrCreateButtonView.swift in Sources */,
+				00EB55D72375D24C006ACB41 /* BackgroundImageView.swift in Sources */,
+				00EB55D92375D6CC006ACB41 /* MenuButtonView.swift in Sources */,
+				00EB55DF2375DFB6006ACB41 /* WelcomeBottomView.swift in Sources */,
+				00EB55C72375D0AA006ACB41 /* WelcomeView.swift in Sources */,
+				00EB55E12375E157006ACB41 /* WelcomeBottomButtonsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
